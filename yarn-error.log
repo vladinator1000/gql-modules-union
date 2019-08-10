@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @graphql-modules/core apollo-server-express graphql @types/espress @types/graphql @types/node ts-node typescript
+
+PATH: 
+  C:\Program Files\Git\usr\bin;C:\cmder\bin;C:\cmder\vendor\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Vlady\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;";C:\Program Files\PostgreSQL\11\bin ;C:\Program Files\PostgreSQL\11\lib";C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.21.27702\bin\Hostx64\x64;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\Vlady\.cargo\bin;C:\Users\Vlady\AppData\Local\Microsoft\WindowsApps;C:\Users\Vlady\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Vlady\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Vlady\AppData\Local\GitHubDesktop\bin;C:\Users\Vlady\.cargo\bin;C:\Users\Vlady\AppData\Local\Yarn\bin;C:\Users\Vlady\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\cmder
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fespress: Not found
+      at Request.params.callback [as _callback] (C:\Users\Vlady\AppData\Roaming\nvm\v11.11.0\node_modules\yarn\lib\cli.js:66255:18)
+      at Request.self.callback (C:\Users\Vlady\AppData\Roaming\nvm\v11.11.0\node_modules\yarn\lib\cli.js:129397:22)
+      at Request.emit (events.js:197:13)
+      at Request.<anonymous> (C:\Users\Vlady\AppData\Roaming\nvm\v11.11.0\node_modules\yarn\lib\cli.js:130369:10)
+      at Request.emit (events.js:197:13)
+      at IncomingMessage.<anonymous> (C:\Users\Vlady\AppData\Roaming\nvm\v11.11.0\node_modules\yarn\lib\cli.js:130291:12)
+      at Object.onceWrapper (events.js:285:13)
+      at IncomingMessage.emit (events.js:202:15)
+      at endReadableNT (_stream_readable.js:1132:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+npm manifest: 
+  {
+    "name": "gql-unions",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

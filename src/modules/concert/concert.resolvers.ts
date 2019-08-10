@@ -20,7 +20,7 @@ export default {
   Query: {
     featuredConcert: () => ({
       id: 1,
-      datetime: "	2019-08-10T19:42:43Z",
+      datetime: "2019-08-10T19:42:43Z",
       organiser: {
         id: 1,
         name: 'Birdland Jazz Club',

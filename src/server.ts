@@ -1,10 +1,12 @@
 import { ApolloServer } from 'apollo-server-express'
 import express from 'express'
 
-import modules from './modules'
+// import modules from './modules'
+import { typeDefs, resolvers } from './monolithSchema'
 
 const apolloServer = new ApolloServer({
-	modules,
+	typeDefs,
+	resolvers,
 	context: ({ req, res }: any) => ({ req, res })
 })
 
